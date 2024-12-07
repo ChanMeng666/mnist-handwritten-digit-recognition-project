@@ -1,11 +1,12 @@
 <div align="center">
- <h1> <img src="https://raw.githubusercontent.com/ChanMeng666/mnist-neural-network-analysis/main/assets/logo.png" width="80px"><br/>MNIST Neural Network Analysis</h1>
+ <h1>MNIST Neural Network Analysis</h1>
  <img src="https://img.shields.io/badge/Python-3.7+-blue.svg?style=flat&logo=python&logoColor=white"/>
  <img src="https://img.shields.io/badge/TensorFlow-2.0+-orange.svg?style=flat&logo=tensorflow&logoColor=white"/>
  <img src="https://img.shields.io/badge/Keras-red.svg?style=flat&logo=keras&logoColor=white"/>
  <img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat"/>
  <img src="https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg?style=flat"/>
 </div>
+
 
 <br/>
 
