@@ -1,2 +1,46 @@
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
 
-/.idea
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# Virtual environments
+venv/
+env/
+.env/
+mnist_env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model artifacts
+*.h5
+*.keras
+*.pb
+saved_models/
+checkpoints/
+
+# Data (top-level MNIST downloads)
+/data/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log

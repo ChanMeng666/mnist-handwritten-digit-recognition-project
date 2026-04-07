@@ -1,0 +1,50 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mnist-recognition"
+version = "1.0.0"
+description = "Advanced handwritten digit recognition with multiple neural network architectures"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.8"
+authors = [
+    {name = "Chan Meng", email = "chanmeng.dev@gmail.com"}
+]
+keywords = ["mnist", "deep-learning", "neural-network", "digit-recognition", "tensorflow", "cnn"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Education",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "tensorflow>=2.4",
+    "numpy>=1.19",
+    "pandas>=1.2",
+    "matplotlib>=3.3",
+    "seaborn>=0.11",
+    "scikit-learn>=0.24",
+    "plotly>=5.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "jupyter>=1.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/ChanMeng666/mnist-handwritten-digit-recognition-project"
+Repository = "https://github.com/ChanMeng666/mnist-handwritten-digit-recognition-project"
+Issues = "https://github.com/ChanMeng666/mnist-handwritten-digit-recognition-project/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
